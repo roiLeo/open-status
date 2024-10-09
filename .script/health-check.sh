@@ -39,7 +39,6 @@ do
     else
       result="failed"
     fi
-    echo "::set-output name=$key::$key=$result"  # echo output to workflows
 
     if [ "$result" = "success" ]; then
       break
@@ -64,9 +63,9 @@ do
   fi
 done
 
-# if [[ $commit == true ]]
-# then
-#   git add -A --force content/logs/
-#   git commit -am '[Automated] Update Health Check Logs'
-#   git push
-# fi
+if [[ $commit == true ]]
+then
+  git add -A --force content/logs/
+  git commit -am '[Automated] Update Health Check Logs'
+  git push
+fi

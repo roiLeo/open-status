@@ -3,7 +3,7 @@
     <div class="mb-4 flex items-center justify-between">
       <div class="mx-0.5 truncate">
         <div class="flex items-center">
-          <StatusIcon :uptime="status?.overallUptime" />
+          <StatusIcon :uptime="status?.overallUptime" class="md:text-xl" />
           <NuxtLink :to="meta_data._path" class="ml-2 md:text-xl">{{ meta_data.title }}</NuxtLink>
         </div>
         <NuxtLink class="text-sm text-gray-400" :to="meta_data.url">{{ meta_data.url }}</NuxtLink>

@@ -13,9 +13,9 @@ jobs:
         id: health_check
         run: bash ./.script/health-check.sh
 
-      - name: Run Notification
-        env:
-          HEALTH_STATUS: ${{ join(steps.health_check.outputs.*, '\n') }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        id: notifcation
-        run: bash ./.script/notification.sh
+      # - name: Run Notification
+      #   env:
+      #     HEALTH_STATUS: ${{ join(steps.health_check.outputs.*, '\n') }}
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   id: notifcation
+      #   run: bash ./.script/notification.sh

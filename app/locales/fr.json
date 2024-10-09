@@ -1,0 +1,17 @@
+{
+  "title": {
+    "recent_incident": "Incident récent"
+  },
+  "overall": {
+    "major_outage": "Interruption Majeure",
+    "partial_outage": "Interruption Partielle",
+    "all_systems_operational": "Tous les systèmes opérationnels",
+    "fully_operational": "Entièrement opérationnel",
+    "unknown": "Inconnu"
+  },
+  "message": {
+    "no_data": "Aucune donnée disponible",
+    "no_incident": "Aucun incident n'a été signalé",
+    "resolved": "Résolu"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": {
+    "recent_incident": "Recent Incident"
+  },
+  "overall": {
+    "major_outage": "Major Outage",
+    "partial_outage": "Partial Outage",
+    "all_systems_operational": "All Systems Operational",
+    "fully_operational": "Fully operational",
+    "unknown": "Unknown"
+  },
+  "message": {
+    "no_data": "No data available",
+    "no_incident": "No incident reported",
+    "resolved": "Resolved"
+  }
+}

@@ -1,6 +1,6 @@
 commit=true
 origin=$(git remote get-url origin)
-if [[ $origin == *status-base/statusbase* ]]
+if [[ $origin == *roiLeo/open-status* ]]
 then
   commit=false
 fi

@@ -12,6 +12,8 @@
   "message": {
     "no_data": "No data available",
     "no_incident": "No incident reported",
-    "resolved": "Resolved"
+    "resolved": "Resolved",
+    "uptime": "Uptime",
+    "last_n_days": "Last {0} days"
   }
 }

@@ -5,7 +5,7 @@
       :class="[statusColor(todayOverallUptime, 'text'), statusColor(todayOverallUptime, 'bg')]"
     >
       <StatusIcon :uptime="todayOverallUptime" class="md:text-3xl" />
-      <h2 class="ml-3 md:ml-6">{{ todayOverallMessage }}</h2>
+      <h2 class="ml-3 md:ml-6 text-sm md:text-xl">{{ todayOverallMessage }}</h2>
     </div>
   </div>
 </template>

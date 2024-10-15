@@ -5,13 +5,15 @@
   "overall": {
     "major_outage": "Interruption Majeure",
     "partial_outage": "Interruption Partielle",
-    "all_systems_operational": "Tous les systèmes opérationnels",
+    "all_systems_operational": "Tous les systèmes sont opérationnels",
     "fully_operational": "Entièrement opérationnel",
     "unknown": "Inconnu"
   },
   "message": {
     "no_data": "Aucune donnée disponible",
     "no_incident": "Aucun incident n'a été signalé",
-    "resolved": "Résolu"
+    "resolved": "Résolu",
+    "uptime": "Disponibilité",
+    "last_n_days": "Les {0} derniers jours"
   }
 }

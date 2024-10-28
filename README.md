@@ -14,6 +14,7 @@ Open-source status page to keep track of your favorite url.
 
 - **Framework**: [Nuxt](https://nuxt.com/)
 - **UI Library**: [nuxt/ui](https://ui.nuxt.com/)
+- **Content**: [nuxt/content](https://content.nuxt.com/)
 
 ## Getting Started
 
@@ -42,6 +43,17 @@ Copy the `.env.example` file to `.env`:
 
 ```bash
 cp .env.example .env
+```
+
+### 4. Setup new endpoint
+
+Create a new yaml file inside `/content/urls`
+(e.g. wikipedia.yaml)
+
+```yaml
+url: "https://www.wikipedia.org/"
+title: "Wikipedia"
+description: "The Free Encyclopedia"
 ```
 
 ## Development Server

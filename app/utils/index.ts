@@ -15,7 +15,12 @@ type ColorType = 'bg' | 'text' | 'border'
 
 export const statusColor = (uptime: number, type: ColorType = 'bg'): string => {
   const { color } = COLOR_LEVELS.find((level) => uptime >= level.threshold) ?? { color: DEFAULT_COLOR }
-  return `${type}-${color}-600 dark:${type}-${color}-800`
+  return `${type}-${color}-500 dark:${type}-${color}-800`
+}
+
+export const statusBadgeColor = (uptime: number): string => {
+  const { color } = COLOR_LEVELS.find((level) => uptime >= level.threshold) ?? { color: DEFAULT_COLOR }
+  return color
 }
 
 export const statusString = (uptime: number, type: 'state' | 'message' = 'state'): string => {

@@ -56,22 +56,13 @@ title: "Wikipedia"
 description: "The Free Encyclopedia"
 ```
 
-## Development Server
+### 5. Run health-check
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-pnpm dev
-```
-
-## Production
-
-Build the application for production:
+In order to scan endpoints, run the following commands:
 
 ```bash
-pnpm build
+sh .script/health-check.sh
 ```
-
 
 ## Deployment
 

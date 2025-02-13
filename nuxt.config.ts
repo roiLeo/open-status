@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  modules: ['@nuxtjs/i18n', '@nuxt/content', '@nuxt/ui'],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/device', '@nuxt/content', '@nuxt/ui'],
 
   i18n: {
     locales: [

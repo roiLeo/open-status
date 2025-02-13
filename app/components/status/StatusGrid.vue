@@ -15,8 +15,9 @@ const props = defineProps({
   data: Object as PropType<Report[]>,
 })
 const gridCount = useGridCount()
-const getDateArray = function (start: Date, days: number) {
-  var arr: Dayjs[] = []
+
+const getDateArray = (start: Date, days: number) => {
+  let arr: Dayjs[] = []
   for (let i = days - 1; i >= 0; i--) {
     const dt = dayjs.utc(start).subtract(i, 'day')
     arr.push(dt)
@@ -27,9 +28,9 @@ const getDateArray = function (start: Date, days: number) {
 const computedData = computed(() => {
   let dates = getDateArray(new Date(), gridCount.value)
   return dates.map((i) => {
-    const dataGroupByDates: number[] = props.data
+    const dataGroupByDates = props.data
       ?.filter((j) => i.isSame(dayjs.utc(j.time), 'day'))
-      .map((i) => (i.status === 'success' ? 1 : 0))
+      .map((i) => (i.status === 'success' ? 1 : 0)) as number[]
 
     const uptime = dataGroupByDates?.length ? dataGroupByDates.reduce((a, v) => a + v, 0) / dataGroupByDates.length : -1
 

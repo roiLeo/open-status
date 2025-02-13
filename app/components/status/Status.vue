@@ -17,11 +17,11 @@
 <script setup lang="ts">
 import type { Dayjs } from 'dayjs/esm'
 
-const props = defineProps({
-  date: Object as PropType<Dayjs>,
-  uptime: Number,
-  count: Number,
-})
+const props = defineProps<{
+  date: PropType<Dayjs>,
+  uptime: number,
+  count: number,
+}>()
 
 const uptimeClass = computed(() => statusColor(props.uptime))
 const badgeColor = computed(() => statusBadgeColor(props.uptime))

@@ -8,5 +8,5 @@
 </template>
 
 <script setup lang="ts">
-defineProps({ uptime: Number, size: Number })
+defineProps<{ uptime: number, size: number }>()
 </script>

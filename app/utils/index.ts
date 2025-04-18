@@ -1,4 +1,4 @@
-const DEFAULT_COLOR = 'gray'
+const DEFAULT_COLOR = 'neutral'
 const COLOR_LEVELS = [
   { threshold: 0.9, color: 'primary' },
   { threshold: 0.5, color: 'yellow' },

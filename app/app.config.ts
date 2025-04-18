@@ -1,24 +1,30 @@
 export default defineAppConfig({
+  theme: {
+    radius: 0.25,
+    blackAsPrimary: false
+  },
   ui: {
-    primary: 'green',
-    gray: 'neutral',
+    colors: {
+      primary: 'emerald',
+      neutral: 'zinc'
+    },
     button: {
-      default: {
+      defaultVariants: {
         size: 'lg'
       }
     },
     select: {
-      default: {
+      defaultVariants: {
         size: 'lg'
       }
     },
     input: {
-      default: {
+      defaultVariants: {
         size: 'lg'
       }
     },
     textarea: {
-      default: {
+      defaultVariants: {
         size: 'lg'
       }
     }

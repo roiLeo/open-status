@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     strategy: 'no_prefix'
   },
 
-  ui: { global: true },
+  css: ['~/assets/css/main.css'],
 
   colorMode: {
     preference: 'dark',

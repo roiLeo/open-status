@@ -1,11 +1,11 @@
 <template>
-  <USelect v-model="locale" :options="locales" option-attribute="name" value-attribute="code" size="sm" />
+  <USelect v-model="locale" :items="locales" label-key="name" value-key="code" size="md" />
 </template>
 
 <script lang="ts" setup>
-const { locales, locale, setLocaleCookie } = useI18n()
+const { locales, locale, setLocale } = useI18n()
 
 watch(locale, (newLocale) => {
-  setLocaleCookie(newLocale)
+  setLocale(newLocale)
 })
 </script>

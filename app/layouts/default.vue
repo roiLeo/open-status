@@ -15,7 +15,7 @@
 <script setup lang="ts">
 useHead({
   bodyAttrs: {
-    class: 'bg-white dark:bg-gray-900'
+    class: 'bg-white dark:bg-neutral-900'
   }
 })
 </script>

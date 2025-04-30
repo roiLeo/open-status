@@ -1,15 +1,17 @@
 <template>
-  <div class="flex min-h-screen flex-col">
-    <DefaultNavbar />
+  <UApp>
+    <div class="flex min-h-screen flex-col">
+      <DefaultNavbar />
 
-    <UContainer class="w-full flex flex-col items-center">
-      <div class="w-full max-w-screen-md px-6 xl:px-0 mt-8">
-        <NuxtPage />
-      </div>
-    </UContainer>
+      <UContainer class="w-full flex flex-col items-center">
+        <div class="w-full max-w-screen-md px-6 xl:px-0 mt-8">
+          <NuxtPage />
+        </div>
+      </UContainer>
 
-    <DefaultFooter />
-  </div>
+      <DefaultFooter />
+    </div>
+  </UApp>
 </template>
 
 <script setup lang="ts">

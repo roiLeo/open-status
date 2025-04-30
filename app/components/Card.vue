@@ -1,6 +1,6 @@
 <template>
   <div class="my-8 md:my-10 w-full">
-    <div class="mb-4 flex items-center justify-between">
+    <div v-if="status" class="mb-4 flex items-center justify-between">
       <div class="mx-0.5 truncate">
         <div class="flex items-center">
           <StatusIcon :uptime="status?.overallUptime" class="md:text-xl" />

@@ -7,7 +7,7 @@
         <div class="px-4 py-2 gap-2 flex flex-col items-center">
           <p>{{ date.format('DD MMM YYYY') }}</p>
           <UBadge :color="badgeColor">{{ $t(statusString(uptime, 'message')) }}</UBadge>
-          <p class="text-sm text-neutral-400">{{ $t(formatUptime(uptime)) }}</p>
+          <p class="text-sm text-neutral-400">{{ formatUptime(uptime) }}</p>
         </div>
       </template>
     </UPopover>

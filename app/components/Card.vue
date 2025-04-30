@@ -10,7 +10,7 @@
       </div>
       <div>
         <p v-if="status?.overallUptime" class="ml-3 md:text-xl text-neutral-400">
-          {{ $t(formatUptime(status?.overallUptime)) }}
+          {{ formatUptime(status?.overallUptime) }}
         </p>
         <div v-else class="bg-neutral-100 rounded-lg w-24 h-7 animate-pulse"></div>
       </div>

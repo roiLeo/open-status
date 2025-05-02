@@ -12,8 +12,6 @@
     </div>
 
     <IncidentReport :incidents="incidents" />
-
-    <div class="bg-primary-500">yeet</div>
   </div>
 </template>
 

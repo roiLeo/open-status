@@ -9,6 +9,7 @@
         </div>
       </UContainer>
 
+      <div class="rounded-full bg-primary-500 text-xs w-0"></div>
       <DefaultFooter />
     </div>
   </UApp>

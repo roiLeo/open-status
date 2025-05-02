@@ -17,7 +17,12 @@ export default defineContentConfig({
     }),
     incidents: defineCollection({
       type: 'page',
-      source: 'incidents/**/*.md'
+      source: 'incidents/**/*.md',
+      schema: z.object({
+        date: z.string(),
+        resolved: z.boolean(),
+        application: z.string()
+      })
     })
   }
 })

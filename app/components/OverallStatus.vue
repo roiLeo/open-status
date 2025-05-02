@@ -5,17 +5,17 @@
       :class="[statusColor(todayOverallUptime, 'bg')]"
     >
       <StatusIcon :uptime="todayOverallUptime" class="md:text-3xl" />
-      <h2 class="ml-3 md:ml-6 text-sm md:text-xl text-highlighted">{{ todayOverallMessage }}</h2>
+      <h2 class="ml-3 md:ml-6 text-sm md:text-xl text-inverted">{{ todayOverallMessage }}</h2>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import type { ParsedContent } from '@nuxt/content'
+import type { LogsCollectionItem } from '@nuxt/content'
 import type { Report } from '~/types'
 
 const props = defineProps({
-  report_data: Object as PropType<ParsedContent[] | Pick<ParsedContent, string>>,
+  report_data: Object as PropType<LogsCollectionItem | null | undefined>,
 })
 const { $dayjs } = useNuxtApp()
 const { t } = useI18n()

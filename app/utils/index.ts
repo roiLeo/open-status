@@ -1,8 +1,8 @@
 const DEFAULT_COLOR = 'neutral'
 const COLOR_LEVELS = [
   { threshold: 0.9, color: 'primary' },
-  { threshold: 0.5, color: 'yellow' },
-  { threshold: 0, color: 'red' }
+  { threshold: 0.5, color: 'warning' },
+  { threshold: 0, color: 'error' }
 ]
 const DEFAULT_STATUS = { state: 'unknown', message: 'overall.unknown' }
 const STATUS_LEVELS = [

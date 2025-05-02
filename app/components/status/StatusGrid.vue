@@ -4,12 +4,12 @@
       <Status v-bind="data" />
     </template>
   </div>
-  <div v-else class="h-8.5 w-full bg-gray-100 rounded-lg animate-pulse"></div>
+  <div v-else class="h-8.5 w-full bg-neutral-100 rounded-lg animate-pulse"></div>
 </template>
 
 <script setup lang="ts">
 import type { Report } from '~/types'
-import dayjs, { Dayjs } from 'dayjs/esm'
+import dayjs from 'dayjs/esm'
 
 const props = defineProps({
   data: Object as PropType<Report[]>,
@@ -17,7 +17,7 @@ const props = defineProps({
 const gridCount = useGridCount()
 
 const getDateArray = (start: Date, days: number) => {
-  let arr: Dayjs[] = []
+  let arr: any[] = []
   for (let i = days - 1; i >= 0; i--) {
     const dt = dayjs.utc(start).subtract(i, 'day')
     arr.push(dt)

@@ -20,27 +20,27 @@
     ]
   },
   "devDependencies": {
-    "@nuxt/devtools": "2.1.3",
-    "@nuxt/eslint-config": "^1.1.0",
+    "@nuxt/devtools": "2.4.0",
+    "@nuxt/eslint-config": "^1.3.0",
     "@nuxtjs/device": "3.2.4",
-    "@nuxtjs/i18n": "^9.2.1",
-    "eslint": "^9.23.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.5",
+    "@nuxtjs/i18n": "^9.5.4",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.0",
-    "nuxt": "^3.15.4",
+    "lint-staged": "^15.5.1",
+    "nuxt": "^3.17.1",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@nuxt/content": "^3.2.2",
-    "@nuxt/kit": "^3.15.4",
-    "@nuxt/ui": "^2.21.0",
-    "@vueuse/core": "^13.0.0",
+    "@nuxt/content": "^3.5.1",
+    "@nuxt/kit": "^3.17.1",
+    "@nuxt/ui": "^3.1.0",
+    "@vueuse/core": "^13.1.0",
     "dayjs": "^1.11.13",
     "sqlite3": "^5.1.7"
   },
-  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
+  "packageManager": "pnpm@9.15.7+sha512.ed98f9c748442673c46964b70345bd2282c9b305e8eae539b34ab31d6ef24ef8dd59d8b55f27466f705500b009d9c113471cf87e544f3d5036b297330c26e996"
 }

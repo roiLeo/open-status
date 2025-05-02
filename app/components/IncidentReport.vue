@@ -19,7 +19,7 @@
             </div>
           </template>
 
-          <ContentRenderer class="prose max-w-none" :value="incident" />
+          <ContentRenderer class="max-w-none" :value="incident" />
         </UCard>
       </div>
     </ClientOnly>

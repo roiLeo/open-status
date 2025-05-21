@@ -38,7 +38,7 @@
     "@nuxt/content": "^3.5.1",
     "@nuxt/kit": "^3.17.3",
     "@nuxt/ui": "^3.1.2",
-    "@vueuse/core": "^13.1.0",
+    "@vueuse/core": "^13.2.0",
     "dayjs": "^1.11.13",
     "sqlite3": "^5.1.7"
   },

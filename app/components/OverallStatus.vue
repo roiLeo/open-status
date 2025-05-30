@@ -1,11 +1,10 @@
 <template>
   <div class="flex justify-center">
     <div
-      class="w-full bg-opacity-10 p-6 md:p-8 flex items-center rounded-xl shadow-lg text-xl md:text-3xl font-medium"
-      :class="[statusColor(todayOverallUptime, 'bg')]"
+      class="w-full flex flex-col items-center text-xl md:text-3xl font-medium gap-2 md:gap-4 p-4 md:p-6 bg-white dark:bg-neutral-800 rounded-lg shadow-md"
     >
-      <StatusIcon :uptime="todayOverallUptime" class="md:text-3xl" />
-      <h2 class="ml-3 md:ml-6 text-sm md:text-xl text-inverted">{{ todayOverallMessage }}</h2>
+      <StatusIcon :uptime="todayOverallUptime" />
+      <h2 class="ml-3 md:ml-6 text-sm md:text-xl lg:text-2xl text-subtle">{{ todayOverallMessage }}</h2>
     </div>
   </div>
 </template>

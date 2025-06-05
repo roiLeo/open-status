@@ -5,8 +5,7 @@ Open-source status page to keep track of your favorite url.
 <details>
   <summary>Screenshot</summary>
 
-  ![Screenshot 2024-10-09 at 10-44-04 ](https://github.com/user-attachments/assets/1e8779d3-cc8a-489b-84b6-d863367983f0)
-
+  ![Screenshot 2025-06-05 at 16-18-21 ](https://github.com/user-attachments/assets/d45199c0-891d-4010-9410-b6d9781db075)
 
 </details>
 

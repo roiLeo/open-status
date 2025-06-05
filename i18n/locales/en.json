@@ -14,6 +14,7 @@
     "no_incident": "No incident reported",
     "resolved": "Resolved",
     "uptime": "Uptime",
-    "last_n_days": "Last {0} days"
+    "last_n_days": "Last {0} days",
+    "last_updated": "Last updated on {0}"
   }
 }

@@ -3,8 +3,9 @@
     <div
       class="w-full flex flex-col items-center text-xl md:text-3xl font-medium gap-2 md:gap-4 p-4 md:p-6 bg-white dark:bg-neutral-800 rounded-lg shadow-md"
     >
-      <StatusIcon :uptime="todayOverallUptime" />
+      <StatusIcon :uptime="todayOverallUptime" :size="10" />
       <h2 class="ml-3 md:ml-6 text-sm md:text-xl lg:text-2xl text-subtle">{{ todayOverallMessage }}</h2>
+      <p class="text-xs text-neutral-400">{{ $t('message.last_updated', [new Date().toLocaleDateString(locale)]) }}</p>
     </div>
   </div>
 </template>
@@ -18,7 +19,7 @@ const props = defineProps({
 })
 
 const { $dayjs } = useNuxtApp()
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const todayUptimeList = computed(() => {
   const reportData = Array.isArray(props.report_data) ? props.report_data : [props.report_data];

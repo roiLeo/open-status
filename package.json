@@ -20,10 +20,10 @@
     ]
   },
   "devDependencies": {
-    "@nuxt/devtools": "2.6.2",
+    "@nuxt/devtools": "2.6.3",
     "@nuxt/eslint-config": "^1.9.0",
     "@nuxtjs/device": "3.2.4",
-    "@nuxtjs/i18n": "^10.0.5",
+    "@nuxtjs/i18n": "^10.0.6",
     "eslint": "^9.33.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",

@@ -37,7 +37,7 @@
   "dependencies": {
     "@nuxt/content": "^3.6.3",
     "@nuxt/kit": "^4.0.3",
-    "@nuxt/ui": "^3.3.2",
+    "@nuxt/ui": "^3.3.3",
     "@vueuse/core": "^13.7.0",
     "dayjs": "^1.11.13",
     "sqlite3": "^5.1.7"

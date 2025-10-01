@@ -1,10 +1,8 @@
 <template>
-  <div class="flex justify-center">
-    <div
-      class="w-full flex flex-col items-center text-xl md:text-3xl font-medium gap-2 md:gap-4 p-4 md:p-6 bg-white dark:bg-neutral-800 rounded-lg shadow-md"
-    >
-      <StatusIcon :uptime="todayOverallUptime" :size="10" />
-      <h2 class="ml-3 md:ml-6 text-sm md:text-xl lg:text-2xl text-subtle">{{ todayOverallMessage }}</h2>
+  <div class="w-full flex items-center text-xl md:text-3xl font-medium gap-2 md:gap-4 p-4 md:p-6 bg-white dark:bg-neutral-800 rounded-lg shadow-md">
+    <StatusIcon :uptime="todayOverallUptime" :size="10" />
+    <div class="flex flex-1 flex-wrap items-center justify-between gap-2">
+      <h2 class="text-sm md:text-xl lg:text-2xl text-subtle">{{ todayOverallMessage }}</h2>
       <p class="text-xs text-neutral-400">{{ $t('message.last_updated', [new Date().toLocaleDateString(locale)]) }}</p>
     </div>
   </div>

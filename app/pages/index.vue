@@ -2,7 +2,7 @@
   <div>
     <OverallStatus :report_data="logs" />
 
-    <div class="mt-12 md:mt-20 font-semibold inline-flex items-end">
+    <div class="mt-8 md:mt-12 font-semibold inline-flex items-end">
       <h2 class="text-xl md:text-3xl">{{ $t('message.uptime') }}</h2>
       <h3 class="text-neutral-400 md:text-xl ml-3 md:ml-6">{{ $t('message.last_n_days', [gridCount]) }}</h3>
     </div>

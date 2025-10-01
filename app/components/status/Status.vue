@@ -1,6 +1,6 @@
 <template>
   <UPopover mode="hover">
-    <div class="w-2 h-8 mr-[1px] rounded-xs first:rounded-l-[6px] last:rounded-r-[6px] cursor-pointer transform transition hover:scale-125" :class="uptimeClass"></div>
+    <div class="w-2 h-12 mr-[1px] rounded-xs first:rounded-l-[6px] last:rounded-r-[6px] cursor-pointer transform transition hover:scale-125" :class="uptimeClass"></div>
 
     <template #content>
       <div class="px-4 py-2 gap-2 flex flex-col items-center">

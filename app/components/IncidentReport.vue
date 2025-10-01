@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 md:mt-20 font-semibold inline-flex items-end">
+  <div class="mt-8 md:mt-12 font-semibold inline-flex items-end">
     <h2 class="text-xl md:text-3xl">{{ $t('title.recent_incident') }}</h2>
   </div>
 

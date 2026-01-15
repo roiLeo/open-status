@@ -4,7 +4,7 @@ export default defineContentConfig({
   collections: {
     urls: defineCollection({
       type: 'data',
-      source: 'urls/**/*.yaml',
+      source: 'urls/*.yaml',
       schema: z.object({
         url: z.string(),
         title: z.string(),
@@ -13,11 +13,11 @@ export default defineContentConfig({
     }),
     logs: defineCollection({
       type: 'page',
-      source: 'logs/**/*.csv'
+      source: 'logs/*.csv'
     }),
     incidents: defineCollection({
       type: 'page',
-      source: 'incidents/**/*.md',
+      source: 'incidents/*.md',
       schema: z.object({
         date: z.string(),
         resolved: z.boolean(),

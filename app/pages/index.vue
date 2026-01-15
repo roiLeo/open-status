@@ -8,7 +8,7 @@
     </div>
 
     <div class="flex flex-col items-center">
-      <Card :meta_data="url" :report_data="retrieveLogs(url?.meta?.path as string)" v-for="url in urls" :key="url.id" />
+      <Card :meta_data="url" :report_data="retrieveLogs(url.stem as string)" v-for="url in urls" :key="url.id" />
     </div>
 
     <IncidentReport :incidents="incidents" />
@@ -22,5 +22,5 @@ const { data: incidents } = await useLazyAsyncData('reports', () => queryCollect
 
 const gridCount = useGridCount()
 
-const retrieveLogs = (path: string) => logs.value?.find((log) => log.path.includes(path.split('/')[2] as string))
+const retrieveLogs = (path: string) => logs.value?.find((log) => log.path.includes(path?.split('/')[1] as string))
 </script>

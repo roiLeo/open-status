@@ -35,7 +35,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@nuxt/content": "^3.10.0",
+    "@nuxt/content": "^3.11.0",
     "@nuxt/kit": "^4.2.2",
     "@nuxt/ui": "4.3.0",
     "@vueuse/core": "^14.1.0",

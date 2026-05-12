@@ -29,14 +29,14 @@
     "eslint-plugin-prettier": "^5.5.5",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "nuxt": "^4.4.4",
+    "nuxt": "^4.4.5",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@nuxt/content": "^3.13.0",
-    "@nuxt/kit": "^4.4.4",
+    "@nuxt/kit": "^4.4.5",
     "@nuxt/ui": "4.7.1",
     "@vueuse/core": "^14.3.0",
     "dayjs": "^1.11.20",

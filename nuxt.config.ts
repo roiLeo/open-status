@@ -18,5 +18,9 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
 
+  content: {
+    experimental: { sqliteConnector: 'native' },
+  },
+
   compatibilityDate: '2024-10-08'
 })

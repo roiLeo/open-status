@@ -35,9 +35,9 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@nuxt/content": "^3.16.0",
+    "@nuxt/content": "^3.16.1",
     "@nuxt/kit": "^4.5.2",
-    "@nuxt/ui": "4.11.1",
+    "@nuxt/ui": "4.11.2",
     "@vueuse/core": "^15.0.0",
     "dayjs": "^1.11.23",
     "sqlite3": "^6.0.1"
